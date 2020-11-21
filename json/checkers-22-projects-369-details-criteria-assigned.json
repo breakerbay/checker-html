@@ -1,0 +1,80 @@
+{
+  "id": 369,
+  "status": null,
+  "statusId": null,
+  "milestoneStatus": null,
+  "name": "Master Housing WOF Single checklist",
+  "descr": "This project demonstrates the use of one single checklist to inspect a property.",
+  "createdBy": 13,
+  "dateCreated": "2020-05-16 21:11:47",
+  "modifiedBy": null,
+  "dateLastModified": null,
+  "accountId": 13,
+  "number": 1,
+  "place_number": null,
+  "checklists": [
+    {
+      "checklistNumber": 12,
+      "checklistId": 3995,
+      "jobId": 2380,
+      "jobName": "Housing WOF checklist",
+      "workareas": [
+        {
+          "workareaId": 7712,
+          "workAreaName": "house 1",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 163941,
+              "checkpointId": 91119,
+              "note": "",
+              "label": null,
+              "name": "1. Cooking Facilities",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-10-26 03:42:40",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91120,
+                  "name": "here must be at least one safe working element, hob or means of cooking as well as an oven",
+                  "descr": "- Visual inspection and verification that cooking facilities are in working condition. \u2028- No obviously visible unsafe wires, broken glass or gas connections"
+                }
+              ]
+            },
+            {
+              "id": 163944,
+              "checkpointId": 91125,
+              "note": "",
+              "label": null,
+              "name": "4. Hot Water Temperature",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91377,
+                  "name": "Hot-water at the tap should be supplied at a temperature of 55 degrees C \u00b15 degrees C.",
+                  "descr": "Select the most easily locatable hot water tap which is closest to each hot water supply. \n- Measure temperature of water using either an electronic or analogue probe-style thermometer placed in the flow of the hot water supply. \n- Allow temperature to stabilise before confirming temperature. \n- Supplied temperature must not exceed 60\u00b0C. \n- Ensure that at least one measurement if taken for each separate hot water system in the house. \n\nNotes\n- The Assessor should place more emphasis on the upper limit (60 degrees C), than the lower limit (50 degrees C). While temperature above 60 degrees C should be recorded as a fail, a measured temperature of slightly below 50 degrees C may be passed if the Assessor deems the system to; \no be otherwise safe and of reasonable standard to effectively supply hot water to the house, and\/or \no show daily fluctuations in temperature because of heating regime and usage profile, (for example a storage system heated on a night-rate and measured after heavy morning use). \n- Supply temperatures at the tap higher than 55 degrees C are a burn hazard, particularly for young and elderly people.\n- Temperatures lower than 60 degrees C in a storage cylinder, increase the risk of legionella bacteria.\n\nIt is not recommended that assessors touch or adjust thermostats."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    }
+  ]
+}

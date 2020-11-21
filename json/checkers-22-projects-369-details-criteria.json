@@ -1,0 +1,701 @@
+{
+  "id": 369,
+  "status": null,
+  "statusId": null,
+  "milestoneStatus": null,
+  "name": "Master Housing WOF Single checklist",
+  "descr": "This project demonstrates the use of one single checklist to inspect a property.",
+  "createdBy": 13,
+  "dateCreated": "2020-05-16 21:11:47",
+  "modifiedBy": null,
+  "dateLastModified": null,
+  "accountId": 13,
+  "number": 1,
+  "place_number": null,
+  "checklists": [
+    {
+      "checklistNumber": 12,
+      "checklistId": 3995,
+      "jobId": 2380,
+      "jobName": "Housing WOF checklist",
+      "workareas": [
+        {
+          "workareaId": 7712,
+          "workAreaName": "house 1",
+          "status": "Open",
+          "complete": 0,
+          "verificationPoints": [
+            {
+              "id": 163941,
+              "checkpointId": 91119,
+              "note": "",
+              "label": null,
+              "name": "1. Cooking Facilities",
+              "position": 1,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": "2020-10-26 03:42:40",
+              "complete": 1,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91120,
+                  "name": "here must be at least one safe working element, hob or means of cooking as well as an oven",
+                  "descr": "- Visual inspection and verification that cooking facilities are in working condition. \u2028- No obviously visible unsafe wires, broken glass or gas connections"
+                }
+              ]
+            },
+            {
+              "id": 163942,
+              "checkpointId": 91121,
+              "note": "",
+              "label": null,
+              "name": "2.Food Preparation & Storage",
+              "position": 2,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91122,
+                  "name": "There must be adequate facilities to store, wash, and prepare food as per Acceptable Solution G3\/AS1 of the NZBC.",
+                  "descr": "Food preparation areas include:\n- A sink capable of fully containing a solid cylinder of 300 mm diameter and 125 mm depth. \n- Clear food preparation area of at least 600 mm x 500 mm. \n- Food storage capacity of at least: \n   - 0.5 m3 for a 1 bedroom house. \n   - 1.0 m3 for a 2 to 4 bedroom house. \n   - 1.0 m3 + 0.2 m3 per additional bedroom over 4 bedrooms. \n\nVisually inspect sink, bench top and dedicated food storage areas to check for general state of repair.\nConfirm dimensions with a tape measure if required."
+                }
+              ]
+            },
+            {
+              "id": 163943,
+              "checkpointId": 91123,
+              "note": "",
+              "label": null,
+              "name": "3. Potable Water",
+              "position": 3,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91124,
+                  "name": "There must be a reliable and adequate source of hot and cold water, plumbed in to the house.",
+                  "descr": "The first preference for assessing potable water should be at the kitchen tap. \n- Confirm that adequate water flows from both cold and hot taps.\n- Water should be visibly clean.\n- Fittings should be effective and not leaking.\n- Any non-potable water (such as untreated rainwater) must be clearly labelled.\n\nNotes\n- A slow dripping tap should be noted but should not fail an inspection.\n- For adequate flow, the rate should be at least 4 litres per minute (sufficient to fill a 1 litre jug in 15 seconds), but no more than 9 litres per minute for a kitchen or bathroom.\uf020"
+                }
+              ]
+            },
+            {
+              "id": 163944,
+              "checkpointId": 91125,
+              "note": "",
+              "label": null,
+              "name": "4. Hot Water Temperature",
+              "position": 4,
+              "checkpointType": 1,
+              "checkerId": 22,
+              "verifiedBy": "Richard Hancock 1",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91377,
+                  "name": "Hot-water at the tap should be supplied at a temperature of 55 degrees C \u00b15 degrees C.",
+                  "descr": "Select the most easily locatable hot water tap which is closest to each hot water supply. \n- Measure temperature of water using either an electronic or analogue probe-style thermometer placed in the flow of the hot water supply. \n- Allow temperature to stabilise before confirming temperature. \n- Supplied temperature must not exceed 60\u00b0C. \n- Ensure that at least one measurement if taken for each separate hot water system in the house. \n\nNotes\n- The Assessor should place more emphasis on the upper limit (60 degrees C), than the lower limit (50 degrees C). While temperature above 60 degrees C should be recorded as a fail, a measured temperature of slightly below 50 degrees C may be passed if the Assessor deems the system to; \no be otherwise safe and of reasonable standard to effectively supply hot water to the house, and\/or \no show daily fluctuations in temperature because of heating regime and usage profile, (for example a storage system heated on a night-rate and measured after heavy morning use). \n- Supply temperatures at the tap higher than 55 degrees C are a burn hazard, particularly for young and elderly people.\n- Temperatures lower than 60 degrees C in a storage cylinder, increase the risk of legionella bacteria.\n\nIt is not recommended that assessors touch or adjust thermostats."
+                }
+              ]
+            },
+            {
+              "id": 163949,
+              "checkpointId": 91139,
+              "note": "",
+              "label": null,
+              "name": "5. Functional Toilet",
+              "position": 5,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91140,
+                  "name": "There must be a functional toilet, which does not have a cracked or broken seat, cistern or bowl.",
+                  "descr": "- Visual inspection for damage.\n- Confirm toilet flushes effectively.\n\nNotes\nSanitary fittings are required under the building code"
+                }
+              ]
+            },
+            {
+              "id": 163945,
+              "checkpointId": 91131,
+              "note": "",
+              "label": null,
+              "name": "6. Provision of a Bath or Shower",
+              "position": 6,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91132,
+                  "name": "There must be a suitably located bath or shower in good working order.",
+                  "descr": "- Confirm that at least one bath or shower is present.\n- Test taps, mixers, spouts or showerheads to confirm that they\u2019re in good working condition.\n- Confirm that water flows from both cold and hot taps.\n- Water should be visibly clean.\n-  Fittings should be effective and not leaking.\n-  Confirm that water is delivered at a suitable rate of flow (estimate only required) and that within shower units, temperature can be adequately controlled.\n\nNotes\n- Slow dripping fittings should be noted but should not fail an inspection.\n- For adequate flow, the rate should be at least 6 litres per minute for a shower."
+                }
+              ]
+            },
+            {
+              "id": 163946,
+              "checkpointId": 91133,
+              "note": "",
+              "label": null,
+              "name": "7. Secure Storage",
+              "position": 7,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91134,
+                  "name": "The house must contain secure or high level cupboards or shelves for storing hazardous or toxic substances out of children's reach.",
+                  "descr": "Visually confirm the presence of storage which is either: \n- Secure and lockable, or\n- Above 1.2 m above floor height.\n\nNotes\nThe assessment guidelines for this feature are derived from the Homestar credit MAN-2 Security."
+                }
+              ]
+            },
+            {
+              "id": 163947,
+              "checkpointId": 91135,
+              "note": "",
+              "label": null,
+              "name": "8. Fixed Space Heating",
+              "position": 8,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91136,
+                  "name": "The house must contain an adequate form of safe and effective space heating.",
+                  "descr": "- Confirm that at least one form of adequate heating is present and is in working condition.\n- The appliance is to be located within the main living area (living, dining, lounge) or where heat can be delivered to the main living area of the dwelling.\n- Where the total floor area of the conditioned space (excluding garage) of the dwelling;\no is equal to or greater than 50m2, the heater must be fixed, \no is less than 50m2, a plug-in type heater can be deemed as adequate, providing all other criteria are met for this point. \n- Unflued gas heaters do not comply.\n- Open fires do not comply.\n- Certified passive houses are exempt\n\nNotes\n - Most houses in New Zealand will require an effective means of space heating in order to achieve and maintain healthy living conditions.\n- A form of fixed heating should be present to ensure that:\no Heating is a permanent feature of the house and is not likely to be removed. \no The risk of fire or injury is minimised due to the secured nature of the heater.- In some instances, such as small units or apartments, a small, portable heater may be more practical and effective than an inappropriately sized or placed fixed heater.\n- Unflued gas heaters emit high levels of moisture and toxic gases. These gases will accumulate in the area if it is not adequately ventilated.\n- A minimum heating output (Wattage) is not required for the purposes of the WOF, as this can often be hard to assess. For information purposes, the minimum outputs shown in Table 2 are the requirements in Clause G5 of the NZBC. \n- Log burners are deemed to be compliant if they\u2019re operational and providing they can be legally used under normal circumstances in the specific region\/council area."
+                }
+              ]
+            },
+            {
+              "id": 163948,
+              "checkpointId": 91137,
+              "note": "",
+              "label": null,
+              "name": "9. Effective Ventilation",
+              "position": 9,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91138,
+                  "name": "The bathroom(s), kitchen, bedrooms and livings areas must have some form of ventilation to the outside.",
+                  "descr": "Check that either an opening window or mechanical vent is present and operational in each of the following: \nKitchen\nBathrooms and ensuites,\nAll bedrooms\nLiving areas.\nIf there is no mechanical ventilation such as an extracting hood above the stove in the kitchen, then an opening window should be no more than 2 metres away from the cooking facilities. \nIf the window or fastened, not accessible or in anyway not able to be opened by the tenant, it should be deemed as not compliant. Similarly, any fan or mechanical vent must be operational in order to comply. \nIf there is provision for a dryer within the habitable building envelope, there must be venting to the outside for that dryer. Dryers in garages or other locations outside the habitable building envelope are excluded. \n\nNotes \nAdequate ventilation is a requirement of the building code and is important for maintaining healthy internal conditions. \nWhile the provision of a fan or opening window does not guarantee the operation of these devices for ventilation, the scope of the WOF is to check that the house is able to be ventilated. The WOF is not a test of tenant behaviour."
+                }
+              ]
+            },
+            {
+              "id": 163950,
+              "checkpointId": 91141,
+              "note": "",
+              "label": null,
+              "name": "10. Mould",
+              "position": 10,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91142,
+                  "name": "The house must be reasonably free of visible mould, having no more in total area of mould than an A4 sheet of paper",
+                  "descr": "Visually inspect and sum up the estimated total area of mould throughout the whole house. Surfaces include: \n- Internal walls, ceilings and floors and floor coverings,\n- Internal surfaces of window frames and glazing,\n- Internal tiled surfaces,\n- Internal surfaces of doors and door frames,\n- Curtains, blinds and window furnishings.\n\nAny mould on furniture and clothing may be noted, but is not included in the total area. \nWardrobes and cupboards should not be inspected unless asked to do so and explicit permission has been given by the tenant and\/or landlord. \n\nNotes\nThe presence of mould is a sign of inadequate ventilation and excess moisture. Mould is known to contribute to poor health, particularly respiratory illness for occupants. \nResearch by the University of Otago suggests that bedrooms are the most likely place for mould to occur."
+                }
+              ]
+            },
+            {
+              "id": 163951,
+              "checkpointId": 91143,
+              "note": "",
+              "label": null,
+              "name": "11. Electrical Safety",
+              "position": 11,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91144,
+                  "name": "All power outlets and light switches must be safe and in good working order, and wiring must be safe.",
+                  "descr": "Visually inspect that none of the following are present: \n- Cracked and broken, or missing faceplates.\n- Scorched or burnt faceplates.\n- Exposed wire.\n- Sockets or switches too close to a defined wet zone (see Figure 1 and Figure 2), for example; o not within 0.3 metres of the floor of a bathroom or laundry, \no not within 0.4 meters above or 0.15 lateral distance from the rim of a sink. \n- Sockets in a bathroom, laundry or wet area without a residual current device (RCD).\n- Unexplained humming, hissing or other noises from electrical fittings.\n\nWhere there is a mix of cabling, or older types of cables appear to be in use, the property owner should be advised to seek further professional advice of a qualified electrician. \n\nNotes:Socket outlets and switches are not permitted within zone 0 or zone 1, as defined by the New Zealand Electrical Code of Practice.  Refer diagram on WOF Fitness Assessment Manual"
+                }
+              ]
+            },
+            {
+              "id": 163956,
+              "checkpointId": 91157,
+              "note": "",
+              "label": null,
+              "name": "12. Indoor Lighting",
+              "position": 12,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91158,
+                  "name": "There must be at least one working light in each room and staircase, and staircases must have a working light switch at both the top and bottom of the stairs.",
+                  "descr": "- Visually inspect and confirm that a fixed electrical light is present and operational in each room.\n- Plug-in lighting, such as standard lamps, desk lamps and bedside lamps that are not permanently wired, should not be included.\n- For stairs, confirm that a safe and operational light switch is present at both the top and bottom of each staircase.\n- If sensor or automatic lighting is present and functioning, this may satisfy the need for dual switching.\n- Spare bulbs may be carried by the assessor to confirm that lighting circuits are functioning providing it is safe to do so and at their discretion.\n- Where it cannot be verified that a room has at least one working light, the house will need to be reassessed once remedial action is taken.\n\nNotes\nNZBC Clause D1 Access Routes."
+                }
+              ]
+            },
+            {
+              "id": 163952,
+              "checkpointId": 91147,
+              "note": "",
+              "label": null,
+              "name": "13. Working Smoke Alarms",
+              "position": 13,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91148,
+                  "name": "There must be operational smoke alarms in the house, situated in accordance with NZBC clause F7",
+                  "descr": "- NZBC clause F7 requires smoke alarms to be present, \no on each level of a multi-storey dwelling, AND within each sleeping space, OR\no within 3 m of every sleeping space and audible to the occupants, AND at the escape route from any bedroom. \n- Visually inspect that smoke alarms are present.\n- Alarms should not be in a Dead air space (see further information). \n- Test each alarm using the alarms\u2019 built-in test function.\n- Spare batteries may be carried by the inspector to install and confirm that smokes alarms are functioning, providing it is safe to do so and at their discretion.\n- For wired alarm systems, check with the owner how to test the system and either conduct a test or verify that the system has been tested within the last 6 months.\n\nNotes\nA house or apartment containing a sprinkler system may not have smoke detectors to the required level. In this case, evidence should be provided that the system has been checked within the last 12 months. \nIt is appropriate for an assessor to carry spare 9 volt batteries and compliant smoke alarms to replace any that might be required in the home."
+                }
+              ]
+            },
+            {
+              "id": 163957,
+              "checkpointId": 91159,
+              "note": "",
+              "label": null,
+              "name": "14. Effective Window Latches",
+              "position": 14,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91160,
+                  "name": "Each opening window must have an effective latch or means of closure.",
+                  "descr": "- Visually inspect that window latches are present and that they effectively close and lock opening windows.\n- Confirm that latches effectively allow for weathertightness of the window when closed.\n\nNotes\nThe ability to open windows is a requirement for ventilation. Latches are required in order to be able to lock and secure the house from an intruder as well as contribute to the weather-tightness of the house."
+                }
+              ]
+            },
+            {
+              "id": 163958,
+              "checkpointId": 91161,
+              "note": "",
+              "label": null,
+              "name": "15. Window Security Stays",
+              "position": 15,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91162,
+                  "name": "Security stays must be present on any window where it is possible for a person to fall out of that window and where the possible fall height is more than 2m to the ground.",
+                  "descr": "Visually inspect the windows and check that security stays are present and operational on all windows with a possible fall height of 2m or more to the external ground and where the sill is less than 1.5m above the internal floor. \nEnsure that the stays; \n- restrict the opening space to no more than 100mm,\n- are not detachable (unless required for fire egress).\n\nExempt windows include the following: \n- High level or clerestory9 windows (where the lower edge is more than 1.5m above the floor).\n- Bottom pivot windows.\n- Windows that cannot be open more than 100mm along the opening edge.\n\nNotes\nSecurity stays allow for improved passive ventilation of the house while keeping the house secure from an intruder and prevent falls, particularly by children through windows."
+                }
+              ]
+            },
+            {
+              "id": 163959,
+              "checkpointId": 91163,
+              "note": "",
+              "label": null,
+              "name": "16. Curtains or Blinds",
+              "position": 16,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91164,
+                  "name": "Windows in bedrooms and living areas are required to either be doubled glazed or have effective curtains or blinds installed.",
+                  "descr": "Visually inspect any windows in the lounge (including open plan lounge\/dining areas) and bedrooms where the sill is below 2 metres above floor level (i.e. high level and clerestory windows are excluded). \nIf the windows are not double or secondary glazed (with an R value of at least 0.26), then curtains or blinds must be present with the following features: \n- Either a single layer of heavy weight, non-translucent material or lighter weight material with a thermal backing.\n- Cover at least 100% of the glazed area of the window.\n- Able to be easily opened and closed.\nCurtains or blinds are not required in the following locations: \n- Bathrooms\n- Kitchens\n- Entrance areas\n- High level (clerestory) windows\n- Skylights\n\nVenetian or slat blinds can be deemed to comply if they are in good working condition. \n\nNotes\nFor the purpose of a warrant, curtains on a working track or blinds (such as Roman-style blinds) should be at least 100% of the size of the glazed area. However, for improved performance, the following is recommended: \n- The minimum length is at least 200 mm below the bottom of the window frame.\n- Curtains should be at least 2 times as wide as the window so as to not fit completely flat and taut across the window.\n\nVenetian and slat blinds are deemed compliant for the purposes of a warrant because they will help contribute to privacy and can also reduce overheating. It should be recognised however that their thermal performance for heat retention is negligible. \nTranslucent material such as netting does not comply. \nMaterial pinned or secured in a manner other than a work track and which doesn\u2019t allow for the curtain to be easily opened and closed, does not comply."
+                }
+              ]
+            },
+            {
+              "id": 163960,
+              "checkpointId": 91165,
+              "note": "",
+              "label": null,
+              "name": "17. Glass Visibility Strips",
+              "position": 17,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91166,
+                  "name": "Glass doors with clear glazing must have visibility strips or safety glass.",
+                  "descr": "Visually inspect that visibility strips are present wherever there are clear glazed, full sized doors without any structural or decorative components through the centre of the glazing. \n\nIf the doors are made of safety glass, visibility strips are not required. \n\nNotes\nVisibility strips should be present to reduce the risk of injury to occupants in cases where glass doors might otherwise be hard to see, or to distinguish between an open and a closed door."
+                }
+              ]
+            },
+            {
+              "id": 163961,
+              "checkpointId": 91167,
+              "note": "",
+              "label": null,
+              "name": "18. Ceiling Insulation",
+              "position": 18,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91168,
+                  "name": "Ceiling insulation is required to WOF standard for all houses where access to the roof space is feasible.",
+                  "descr": "Visually inspect the roof space from the access hole. \nWhere accessible parts of the roof are not visible from the access hatch, the assessor should enter the roof space, providing it is safe to do so, and ensure a thorough inspection. \nIf ceilings are too high or otherwise unsafe to inspect, they should be deemed as not accessible. \nWhere there is no access, or access is obstructed and a roof cavity does exist, the home owner must provide evidence of the insulation. If no such evidence can be provided, the house will be deemed to fail until such time that access can be created or unobstructed and insulation can be verified. This may mean that an access hatch and then insulation is required to be installed. \nSkillion or flat roofs are exempt as inspecting or retrofitting insulation will not always be practically feasible. \n\nNotes\n- Insulation must be at least 120 mm thick or labelled with the relevant R-value (see Table 3). \n- There should be no patches of damp insulation.\n- The total area of gaps or missing segments must be less than approximately 1 m2 for all accessible areas (excluding area required as clearance around lights and flues).\n- Chimneys and flues must have a least 75 mm of clearance.\n- Unducted extractor fans must have at least 200 mm of clearance.\n- Any CA (closed abutted) recessed lighting must not be covered with insulation.\n- Any recessed lighting with no clear labelling or rating must have at least 100 mm clearance of insulation on all sides.\n- Downlight transformers must not be covered.\nLoose fill insulation may be acceptable if all the above criteria, including clearances, are met AND an effective means of maintaining clearances is in place. \n\nWhere there is no access to the roof space, such as a flat, skillion or cathedral style roof, insulation does not have to be assessed."
+                }
+              ]
+            },
+            {
+              "id": 163962,
+              "checkpointId": 91169,
+              "note": "",
+              "label": null,
+              "name": "19. Underfloor Insulation",
+              "position": 19,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91170,
+                  "name": "Underfloor insulation is required to WOF standard for all houses where there is access to the sub-floor.",
+                  "descr": "Visually inspect under the floor from the access hatch. \nWhere accessible parts of the under floor are not visible from the access hatch, the assessor should enter the subfloor space, providing it is safe to do so, to ensure a thorough inspection. \n\nNotes \n(Not applicable for concrete floors) \n-  Insulation may be any of the following:\no Bulk insulation, at least 75 mm thick. \no Rigid polystyrene, appropriately secured between joists. \no Foil, in good condition. \no Other form of insulation clearly labelled, or as deemed appropriate and of reasonable quality by the assessor. \n- There should be no patches of damp insulation,\n- The total area of gaps or missing segments must be less than approximately 1 m2 for all accessible areas (excluding area required as clearance around lights and flues).\n-Any lighting affixed to the underside of the floor (e.g. for a garage or storage space) with no clear labelling or rating, must have at least 200 mm clearance of insulation on all sides.\n- Chimneys and flues must have a least 50 mm of clearance.\n\nHouses where it is impractical to assess or install insulation (for example where clearance is less than 450 mm between the underside of joists and the ground) can be deemed to pass. \n\nFurther Notes\n- Only suspended floors with reasonable access (more than approximately 450 mm clearance) are deemed as assessable.\n- Only the ground floor for the house is required to have insulation.\n- Insulation was only required in New Zealand homes from 1978. The general requirement under the current building code (Acceptable solution H1\/AS1) for under floor insulation is R 1.3."
+                }
+              ]
+            },
+            {
+              "id": 163963,
+              "checkpointId": 91171,
+              "note": "",
+              "label": null,
+              "name": "20. Ground Vapour Barrier",
+              "position": 20,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91172,
+                  "name": "A ground vapour barrier is required for all houses where there is an accessible and fully enclosed sub-floor.",
+                  "descr": "Visually inspect under the floor from the access hatch. \nWhere accessible parts of the under floor are not visible from the access hatch, the assessor should enter the subfloor space to ensure a thorough inspection. \n\nNotes\n(Not applicable for concrete floors) \n-  A polythene sheet (or similar) must be installed on the ground and secured at the perimeter and around piles.\n-  A vapour barrier is only required in cases where there is a continuous perimeter foundation, i.e. floors elevated on poles or where the floor is exposed are exempt.\n-  Where untreated piles are in use, and installing a vapour barrier would require fixing to these piles, the house should not fail.\n\nFurther Notes\n- Only suspended floors with reasonable access (more than approximately 400 mm clearance) are assessable.\n- There may be risks associated with fixing ground vapour barriers to untreated piles. If installing a vapour barrier would require fixing to untreated piles, it can be recommended that the owner seek further advice."
+                }
+              ]
+            },
+            {
+              "id": 163964,
+              "checkpointId": 91173,
+              "note": "",
+              "label": null,
+              "name": "21. Weathertightness",
+              "position": 21,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91174,
+                  "name": "The house must be weathertight with no obvious leaks or moisture stains on the walls, ceilings or floors.",
+                  "descr": "Visually inspect the interior of the house for evidence of leaks or prolonged moisture on all floor, wall and ceiling linings. \nVisually inspect the exterior of the house for obvious holes, broken or missing sections in any of the following elements: \n- Roofing material,\n-  Soffit,\n- External wall cladding,\n- Windows,\n- Doors,\n- Floors.\n\nNotes\nMinor cracks where no pieces of material are missing and where moisture or draughts are not likely to penetrate the element, can be excluded from failure. Such cracks in elements should be noted and advice given regarding repair. \nThe condition of the foundation perimeter wall is excluded. An intact perimeter wall should allow for ventilation while protecting against the elements and animals. However, it may not be feasible for all perimeter walls to be closed in (e.g. houses or parts that are elevated on piles)."
+                }
+              ]
+            },
+            {
+              "id": 163965,
+              "checkpointId": 91175,
+              "note": "",
+              "label": null,
+              "name": "22. Reasonable State of Repair",
+              "position": 22,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91176,
+                  "name": "The house, installed services, and finishes must be in a reasonable state of repair",
+                  "descr": "Visually inspect the overall condition of the house to check that there are no major and obvious faults, cracks, holes, unevenness or serious damage to any of the following building elements: \n- Roofing material,\n- Cladding,\n- Glazing,\n- Entrances,\n- Electrical and water services,\n- Pathways immediately adjacent to the building,\n- Internal walls,\n- Floors,\n- Foundation wall,\n- Piles,\n- Floor coverings.\nAlso confirm there are no obvious slip hazards, including moss or slippery surfaces on decks and pathways immediately adjacent to the house. \n\nNotes\nThe assessor should use their discretion to determine if any obvious defect is serious enough to deem the house to fail. A defect should be deemed serious if it is a risk to the health and safety of the occupants, or will directly impact the weathertightness or security of the dwelling.\nCracked or damaged paint and other aesthetic issues are not considered. While damaged paint may indirectly contribute to decreasing weathertightness over a period of time, assessment should be restricted to solid structures. \nAny risk of possible exposure to lead paint should be verbally communicated to the tenant and landlord."
+                }
+              ]
+            },
+            {
+              "id": 163966,
+              "checkpointId": 91177,
+              "note": "",
+              "label": null,
+              "name": "23. Stormwater and Waste Water Discharge",
+              "position": 23,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91178,
+                  "name": "There must be a reasonably watertight stormwater collection system and sound connection to a waste water system.",
+                  "descr": "Visually inspect the check the following: \n- Spouting and downpipes are connected securely and effectively to an appropriate stormwater system,\n- Waste water pipes (where possible),\n- Check the ground under and immediately around the house for evidence of excessive ponding.\n\nNotes\nHouse are required to have effective guttering for the whole roof. \nGuttering should be designed to overflow to the outside and should have a cross sectional area of at least 2,500 mm2."
+                }
+              ]
+            },
+            {
+              "id": 163967,
+              "checkpointId": 91179,
+              "note": "",
+              "label": null,
+              "name": "24. No Ponding Under House",
+              "position": 24,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91180,
+                  "name": "The ground under the house should be free of ponding and surface water (Not applicable for concrete floors)",
+                  "descr": "Visually inspect under the floor from the access hatch. \nWhere accessible parts of the under floor are not visible from the access hatch, the assessor should enter the subfloor space to ensure a thorough inspection. \n\nNotes\n- Only suspended floors with reasonable access (more than approximately 400 mm clearance) are assessable.\n- Only the ground floor for the house is required to have insulation."
+                }
+              ]
+            },
+            {
+              "id": 163968,
+              "checkpointId": 91181,
+              "note": "",
+              "label": null,
+              "name": "25. Entrance Way Lighting",
+              "position": 25,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91182,
+                  "name": "There must be adequate, operational lighting at or near entrance ways.",
+                  "descr": "Visually inspect that lighting is present and operational at the main front and back doors of the house."
+                }
+              ]
+            },
+            {
+              "id": 163969,
+              "checkpointId": 91183,
+              "note": "",
+              "label": null,
+              "name": "26. Structurally Sound",
+              "position": 26,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91184,
+                  "name": "The house must appear to be structurally sound, with no obvious indications of current or imminent movement or collapse.",
+                  "descr": "Visually inspect the house to verify there are no obvious indications of movement, instability of collapse. Examples of building elements to check include: \n- Walls are straight, not bowed or sagging.\n- Roof is straight and not sagging or collapsed.\n- Floor is level and solid.\n- No obvious damage, major degradation or missing joists.\n\nNotes\nIt is not the purpose of the WOF assessment to do a full structural analysis of a house as this would require a structural engineer. Only obvious and potentially dangerous faults should be noted and deemed to fail."
+                }
+              ]
+            },
+            {
+              "id": 163955,
+              "checkpointId": 91153,
+              "note": "",
+              "label": null,
+              "name": "27. Handrails and Balustrades",
+              "position": 27,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91154,
+                  "name": "Indoor stairs and outdoor stairs which access the house, with 4 or more risers, require handrails. All balconies and decks of 1,000 mm above ground level must have balustrades.",
+                  "descr": "- Confirm that handrails and balustrades are secure.\n- Measure heights and clearance to confirm the minimum barrier heights as per Table 4:\no  For balconies and decks and edges of internal floors or mezzanine floors; is 1,000mm (see Figure 4, Figure 5 and Figure 7). \no  For stairs, ramps and their landings; is 900mm (see Figure 6). \no  For barriers in common areas of multi-unit dwellings (other than stairs and barriers within 530 mm of the front of fixed seating); is 1,100mm. \n- Measure and confirm that the horizontal spacing of rails is no more than 100mm.\nFor older properties where existing handrails or balustrades do not comply with the current building code, gaps may be up to 120mm, providing the structure is deemed to be safe, sturdy and not able to be easily climbed by a child. \n\nNotes\nAcceptable Solution F4\/AS1 of the building code stipulates that for a house where there are likely to be frequented by children under the age of 6:\n- Openings in the barrier should not allow a sphere of 100mm diameter to pass through it. See Figure 4 & Figure 5 for more information. \n- The triangular opening between the riser, tread and barrier should not allow a sphere of 150mm diameter to pass through it. See Figure 6 for more information."
+                }
+              ]
+            },
+            {
+              "id": 163954,
+              "checkpointId": 91151,
+              "note": "",
+              "label": null,
+              "name": "28. Address Clearly Labelled and Identifiable",
+              "position": 28,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91152,
+                  "name": "The house number and main entrance must be clearly labelled and identifiable.",
+                  "descr": "Visually inspect to confirm that the house number is clearly labelled and that the main entrance is clearly identifiable.\n\nNotes\nClear identification is important for visitation as well as to ensure that emergency services are able to locate the address."
+                }
+              ]
+            },
+            {
+              "id": 163953,
+              "checkpointId": 91149,
+              "note": "",
+              "label": null,
+              "name": "29. Securely Locking Doors",
+              "position": 29,
+              "checkpointType": 1,
+              "checkerId": 36,
+              "verifiedBy": "abecontractor",
+              "dateChecked": null,
+              "complete": 0,
+              "followupActionId": null,
+              "followupActionDateRaised": null,
+              "followupActionDateFixed": null,
+              "criteria": [
+                {
+                  "id": 91150,
+                  "name": "The house must be able to be secured by means of lockable doors or entranceways.",
+                  "descr": "Confirm that locks are present and properly functioning for the main entrances to the house. \nAlso confirm that windows and other openings are able to be secured."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "complete": false
+    }
+  ]
+}
