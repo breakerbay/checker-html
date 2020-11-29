@@ -6,12 +6,12 @@ Articles equate to Svelte components, i.e. .svelte files
 ## Articles
 Components:
 * [Checker Projects](#checker-projects)
-* [Checker Project](#checker-project)
+* [Checker Project Summary](#checker-project-summary)
 
 ### Checker Projects
-A collection of individual [Checker Project](#checker-project)'s
+A collection of individual [Checker Project](#checker-project-summary)'s
 Components:
-* [Checker Project](#checker-project)
+* [Checker Project Summary](#checker-project-summary)
 
-### Checker Project
+### Checker Project Summary
 * Followup Action (optional)
