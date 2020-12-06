@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First CSS Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="site-nav grid">
+    <h1>Construction Assurance</h1>
+    <ul>
+      <li><a href="#projects">Projects</a>
+        <ul>
+          <li><a href="#project">Project</a>
+            <ul>
+              <li><a href="#project-checklists">Checklists</a></li>
+              <li><a href="#project-worklots">Work Lots</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <section id="welcome" class="grid">
+    <div class="welcome-text">
+      <h2>On Site Project Verification</h2>
+      <p class="leading">Richard Hancock</p>
+      <a href="#projects" class="button">Projects</a>
+    </div>
+    <div class="welcome-img">
+      <img src="../../assets/images/abelogo.png" alt="ABE Services logo">
+    </div>
+  </section>
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="projects grid">
+      <h4>Project - Studio Extension</h4>
+      <a href="#">
+        <img src="../../assets/images/studio-extension-front-entrance.jpg" alt="studio">
+        <h4>Studio</h4>
+      </a>
+<!--
+      <a href="#">
+        <img src="../../assets/images/studio-extension-entrance.jpg" alt="studio entrance">
+        <h4>Studio Entrance</h4>
+      </a>
+      <a href="#">
+        <img src="../../assets/images/studio-extension-lounge.jpg" alt="studio lounge">
+        <h4>Studio Lounge</h4>
+      </a>
+      <a href="#">
+        <img src="../../assets/images/studio-extension-dining-kitchen.jpg" alt="studio kitchen and dining area">
+        <h4>Studio Kitchen and Dining Area</h4>
+      </a>
+      <a href="#">
+        <img src="../../assets/images/studio-extension-bedroom.jpg" alt="studio bedroom">
+        <h4>Studio Bedroom</h4>
+      </a>
+      -->
+    </div>
+  </section>
+  <section id="skills">
+    <h3>Work Lots</h3>
+    <ul class="grid">
+<!--
+      <li>
+        <img src="../../assets/images/studio-extension-front-entrance.jpg" alt="studio">
+        <h4>Studio</h4>
+      </li>
+-->
+      <li>
+        <img src="../../assets/images/studio-extension-entrance.jpg" alt="studio entrance">
+        <h4>Studio Entrance</h4>
+      </li>
+      <li>
+        <img src="../../assets/images/studio-extension-lounge.jpg" alt="studio lounge">
+        <h4>Studio Lounge</h4>
+      </li>
+      <li>
+        <img src="../../assets/images/studio-extension-dining-kitchen.jpg" alt="studio kitchen and dining area">
+        <h4>Studio Kitchen and Dining Area</h4>
+      </li>
+      <li>
+        <img src="../../assets/images/studio-extension-bedroom.jpg" alt="studio bedroom">
+        <h4>Studio Bedroom</h4>
+      </li>
+    </ul>
+    <p class="leading">Project notes ... </p>
+  </section>
+  <section id="contact">
+    <h3>Get In Touch</h3>
+    <p class="leading">Fill in the form, to get in touch with us.</p>
+    <form>
+      <input type="text" placeholder='NAME'>
+      <input type="email" placeholder='EMAIL'>
+      <textarea placeholder='YOUR MESSAGE'></textarea>
+      <button class="button">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <div class="grid">
+      <p class="copyright">Copyright &copy; 2020 ABE Services</p>
+    </div>
+  </footer>
+</body>
+</html>
