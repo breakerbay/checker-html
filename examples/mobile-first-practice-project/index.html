@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mobile First Responsive Portfolio Page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <nav class="site-nav grid">
+      <input type="checkbox" id="menu-toggle-check" class="menu-toggle-check" />
+
+      <div class="logo-wrap">
+        <h1><a href="/" class="logo">Construction Assurance</a></h1>
+        <div class="mobile-menu-toggle">
+          <label for="menu-toggle-check" class="menu-icon"
+            ><span class="nav-icon"></span
+          ></label>
+        </div>
+      </div>
+      <!-- end .logo-wrap -->
+
+      <ul class="menu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- end .logo-wrap -->
+    </nav>
+    <!-- ends .site-nav -->
+
+    <section class="grid welcome" id="welcome">
+      <div class="welcome-text">
+        <h2>
+          Space Explorer <br />
+          & FullStack Developer
+        </h2>
+        <p class="leading">
+          Come and explore the sky with me. Lorem ipsum dolor sit, amet
+          consectetur.
+        </p>
+        <a href="#portfolio" class="button">My Recent Work</a>
+      </div>
+
+      <div class="welcome-img">
+        <img src="../../assets/images/abelogo.png" alt="ABE Services logo">
+      </div>
+    </section>
+    <!-- end #Welcome -->
+
+    <section id="portfolio" class="portfolio">
+      <h3>My Recent Projects</h3>
+      <div class="projects grid">
+        <a href="#">
+          <img src="assets/images/project_1.png" alt="space project 1" />
+          <h4>Flying in space</h4>
+        </a>
+        <a href="#">
+          <img src="assets/images/project_2.png" alt="Space Project 2" />
+          <h4>Exploring Stars</h4>
+        </a>
+        <a href="#">
+          <img src="assets/images/project_3.png" alt="Project 3 in Space" />
+          <h4>Walking in the Moon</h4>
+        </a>
+      </div>
+    </section>
+    <!-- end #portfolio -->
+
+    <section id="skills" class="skills">
+      <h3>What I am good at</h3>
+      <ul class="grid">
+        <li>
+          <img src="assets/images/comet_1.svg" alt="Skill bar 1" />
+          <h4>JavaScript (+Vue & React)</h4>
+        </li>
+        <li>
+          <img src="assets/images/comet_2.svg" alt="commet 2" />
+          <h4>PHP & MySQL</h4>
+        </li>
+        <li>
+          <img src="assets/images/comet_3.svg" alt="WordPress" />
+          <h4>WordPress</h4>
+        </li>
+        <li>
+          <img src="assets/images/comet_4.svg" alt="HTML & CSS 3" />
+          <h4>HTML5 & CSS3</h4>
+        </li>
+      </ul>
+    </section>
+    <!-- end #skills -->
+
+    <section id="contact" class="contact">
+      <h3>Get in Touch</h3>
+      <p class="leading">Do you want to fly with me? Let's talk!</p>
+      <form action="/">
+        <input type="text" placeholder="Name" name="name" />
+        <input type="email" placeholder="Email" name="email" />
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <button class="button">Send Message</button>
+      </form>
+    </section>
+    <!-- end #contact -->
+
+    <footer class="footer">
+      <div class="grid">
+        <p class="copyright">&copy; 2020 All rights Reserved.</p>
+        <ul class="social">
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon_github.svg" alt="Social Image"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon_fb.svg" alt="Social Image"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/icon_tw.svg" alt="Social Image"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- end .footer -->
+
+    <div class="scrolltop-wrap">
+      <a href="#" role="button" aria-label="Scroll to top">
+        <svg
+          height="48"
+          viewBox="0 0 48 48"
+          width="48"
+          height="48px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+          <path
+            id="scrolltop-arrow"
+            d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+    <!-- end .scrolltop-wrap -->
+  </body>
+</html>
