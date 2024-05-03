@@ -1,10 +1,16 @@
 # Draft Richard Hancock 2023-2024 Tax Preparation
 
+From: 
+Pettit, Paul <paulpettit@deloitte.co.nz>
+
+Johannes, Robin <rojohannes@deloitte.co.nz>; 
+Gandhi, Jeeten <jegandhi@deloitte.co.nz>
+
 Hi Paul,
 
 attaching the details of my 2023-2024 tax in the zip file richard-hancock-2023-2024.zip for you to review and prepare for IRD.
 
-In the zip file the document HancockTaxReturn2023-2024.pdf (or HancockTaxReturn2023-2024.docx if you prefer) provides the summary of my individual and rental income.
+In the zip file the document HancockTaxReturn2023-2024.pdf provides the summary of my individual and rental income.
 
 The zip file also contains the completed Deloitte individual and rental questionnaires, richard-hancock-nz-individual-questionniare-2023-2024.pdf and richard-hancock-nz-rental-property-questionnaire-2023-2024.pdf respectively.
 
